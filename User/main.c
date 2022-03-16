@@ -1,38 +1,59 @@
-/**
-  ******************************************************************************
-  * @file    main.c
-  * @author  fire
-  * @version V1.0
-  * @date    2015-xx-xx
-  * @brief   用1.8.0版本库建的工程模板
-  ******************************************************************************
-  * @attention
-  *
-  * 实验平台:野火  STM32 F407 开发板 
-  * 论坛    :http://www.firebbs.cn
-  * 淘宝    :https://fire-stm32.taobao.com
-  *
-  ******************************************************************************
-  */
-  
 #include "stm32f4xx.h"
+#include "MSi001.h"
+#include "delay.h"
 
-/**
-  * @brief  主函数
-  * @param  无
-  * @retval 无
-  */
+#include "sys.h"
+#include "delay.h"
+#include "usart.h"
+#include "lcd.h"
+#include "GBK_LibDrive.h"	
+#include "touch.h"
+#include "w25qxx.h"
+
+//#include "lv_conf.h"
+#include "lvgl.h"
+#include "lv_port_indev.h"
+#include "lv_port_disp.h"
+#include "basic_tim.h"
+#include "lv_demos.h"
+
+
 int main(void)
 {
-		/* 程序来到main函数之前，启动文件：statup_stm32f4xx.s已经调用
-		* SystemInit()函数把系统时钟初始化成168MHZ
-		* SystemInit()在system_stm32f4xx.c中定义
-		* 如果用户想修改系统时钟，可自行编写程序修改
-		*/
-		  /* add your code here ^_^. */
-  	  while(1);
+//	Transplant_Init();
+//	MSI_Init();
+//	MSI_ChageChannel(88.1);
+	delay_init(168);
+	LCD_Init();
+	W25QXX_Init();
+	POINT_COLOR=RED;      //画笔颜色：红色
+	GBK_Lib_Init();       //硬件GBK字库初始化--(如果使用不带字库的液晶屏版本，此处可以屏蔽，不做字库初始化）
+	DrawFont_GBK24B(70,24,BLUE," ");
+	TIMx_Configuration();
+	
+	lv_init();
+	lv_port_disp_init();
+	lv_port_indev_init();
+	
+	
+//	lv_obj_t * parent = lv_obj_create(lv_scr_act());   /*Create a parent object on the current screen*/
+//	lv_obj_set_size(parent, 200, 200);	                 /*Set the size of the parent*/
+
+//	lv_obj_t * obj1 = lv_obj_create(parent);	         /*Create an object on the previously created parent object*/
+//	delay_ms(1000);
+//	lv_obj_set_pos(obj1, 10, 10);	   
+//	delay_ms(1000);
+//	lv_obj_set_pos(parent, 10, 10);
+//	lv_obj_set_x(obj1, -30);
+
+	lv_demo_widgets();
+//	lv_demo_keypad_encoder();
+//	lv_demo_music();
+	while(1)
+	{
+		
+		lv_timer_handler_run_in_period(5);
+	}
 
 }
-
-/*********************************************END OF FILE**********************/
 

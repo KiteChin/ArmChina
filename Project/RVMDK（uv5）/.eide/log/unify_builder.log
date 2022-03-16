@@ -1,0 +1,100 @@
+[2022-03-14 16:18:08]	compilation failed at : "e:\实验室\Keil_project\STM32F4\集创赛\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.d": No such file or directory
+.\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c: 0 warnings, 1 error
+
+[2022-03-14 16:19:54]	compilation failed at : "e:\实验室\Keil_project\STM32F4\集创赛\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.d": No such file or directory
+.\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c: 0 warnings, 1 error
+
+[2022-03-14 16:49:45]	compilation failed at : "e:\实验室\Keil_project\STM32F4\集创赛\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.d": No such file or directory
+.\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c: 0 warnings, 1 error
+
+[2022-03-14 16:51:11]	compilation failed at : "e:\实验室\Keil_project\STM32F4\集创赛\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.d": No such file or directory
+.\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c: 0 warnings, 1 error
+"no source": Error: command-line:  #564: cannot open preprocessing output output file ".\build\工程模板\__\__\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.d": No such file or directory
+.\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c: 0 warnings, 1 error
+

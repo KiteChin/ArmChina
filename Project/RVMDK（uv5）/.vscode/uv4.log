@@ -1,0 +1,21 @@
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Program Files\Keil5\ARM\ARMCC\Bin'
+Build target '¹¤³ÌÄ£°å'
+compiling QN8027.c...
+..\..\User\src\QN8027.c(3): warning:  #177-D: function "I2C_Start"  was declared but never referenced
+  static void I2C_Start(void)
+..\..\User\src\QN8027.c(13): warning:  #177-D: function "I2C_Stop"  was declared but never referenced
+  static void I2C_Stop(void)
+..\..\User\src\QN8027.c(21): warning:  #177-D: function "I2C_Wait_ACK"  was declared but never referenced
+  static uint8_t I2C_Wait_ACK(void)
+..\..\User\src\QN8027.c(36): warning:  #177-D: function "I2C_ACK"  was declared but never referenced
+  static void I2C_ACK(void)
+..\..\User\src\QN8027.c(47): warning:  #177-D: function "I2C_NACK"  was declared but never referenced
+  static void I2C_NACK(void)
+..\..\User\src\QN8027.c(108): warning:  #177-D: function "i2c_write_byte"  was declared but never referenced
+  static void i2c_write_byte(uint8_t slave_addr, uint8_t reg_addr, uint8_t data)
+..\..\User\src\QN8027.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=2536 RO-data=424 RW-data=28 ZI-data=1028  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 6 Warning(s).
+Build Time Elapsed:  00:00:01
